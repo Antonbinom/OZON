@@ -1,1 +1,5 @@
-console.log('hello')
+import {
+	modal
+} from "./modules/modal"
+
+modal()
