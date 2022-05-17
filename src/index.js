@@ -1,5 +1,5 @@
 import {
-	modal
-} from "./modules/modal"
+	cart
+} from "./modules/cart"
 
-modal()
+cart()

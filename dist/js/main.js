@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log("hello")})();
+(()=>{"use strict";(()=>{const e=document.getElementById("cart"),t=document.querySelector(".cart"),c=t.querySelector(".cart-close");document.body.addEventListener("click",(r=>{r.preventDefault(),r.target===e?t.style.display="flex":r.target!==c&&r.target!==t||(t.style.display="")}))})()})();
