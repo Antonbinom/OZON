@@ -1,6 +1,6 @@
 export const postData = () => {
 
-	return fetch('http://localhost:3000/goods/23', {
+	return fetch('http://localhost:3000/goods/', {
 			method: 'POST',
 			body: JSON.stringify({
 				title: "Cyber Punk 2077",
