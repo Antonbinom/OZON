@@ -1,4 +1,4 @@
-export const cart = () => {
+const cart = () => {
 	const cartBtn = document.getElementById('cart')
 	const cartModal = document.querySelector('.cart')
 	const cartClose = cartModal.querySelector('.cart-close')
@@ -16,3 +16,5 @@ export const cart = () => {
 		else if (e.target === cartClose || e.target === cartModal) closeCart()
 	})
 }
+
+export default cart
